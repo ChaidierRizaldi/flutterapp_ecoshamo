@@ -2,6 +2,7 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
+import 'package:flutterapp_ecoshamo/pages/detail_chat_page.dart';
 import 'package:flutterapp_ecoshamo/pages/home/main_page.dart';
 import 'package:flutterapp_ecoshamo/pages/sign_in_page.dart';
 import 'package:flutterapp_ecoshamo/pages/sign_up_page.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/sign-in': (context) => SignInPage(),
         '/sign-up': (context) => SignUpPage(),
         '/home': (context) => MainPage(),
+        '/detail-chat': (context) => DetailChatPage(),
       },
     );
   }
