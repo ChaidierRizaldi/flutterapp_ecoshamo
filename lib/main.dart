@@ -2,9 +2,12 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
+import 'package:flutterapp_ecoshamo/pages/cart_page.dart';
+import 'package:flutterapp_ecoshamo/pages/checkout_page.dart';
 import 'package:flutterapp_ecoshamo/pages/detail_chat_page.dart';
 import 'package:flutterapp_ecoshamo/pages/edit_profile_page.dart';
 import 'package:flutterapp_ecoshamo/pages/home/main_page.dart';
+import 'package:flutterapp_ecoshamo/pages/product_page.dart';
 import 'package:flutterapp_ecoshamo/pages/sign_in_page.dart';
 import 'package:flutterapp_ecoshamo/pages/sign_up_page.dart';
 import 'package:flutterapp_ecoshamo/pages/splash_page.dart';
@@ -25,6 +28,9 @@ class MyApp extends StatelessWidget {
         '/home': (context) => MainPage(),
         '/detail-chat': (context) => DetailChatPage(),
         '/edit-profile': (context) => EditProfilePage(),
+        '/product': (context) => ProductPage(),
+        '/cart': (context) => CartPage(),
+        '/checkout': (context) => CheckoutPage(),
       },
     );
   }
