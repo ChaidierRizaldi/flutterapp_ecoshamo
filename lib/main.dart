@@ -3,6 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutterapp_ecoshamo/pages/cart_page.dart';
+import 'package:flutterapp_ecoshamo/pages/checkou_success_page.dart';
 import 'package:flutterapp_ecoshamo/pages/checkout_page.dart';
 import 'package:flutterapp_ecoshamo/pages/detail_chat_page.dart';
 import 'package:flutterapp_ecoshamo/pages/edit_profile_page.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         '/product': (context) => ProductPage(),
         '/cart': (context) => CartPage(),
         '/checkout': (context) => CheckoutPage(),
+        '/checkout-success': (context) => CheckoutSuccessPage(),
       },
     );
   }
